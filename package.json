@@ -1,0 +1,26 @@
+{
+  "name": "gitLabGuide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --reporter=line,allure-playwright",
+    "allure-generate": "allure generate --clean",
+    "allure-serve": "allure serve"
+    },
+    
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jackson24-7/gitLabGuide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jackson24-7/gitLabGuide/issues"
+  },
+  "homepage": "https://github.com/Jackson24-7/gitLabGuide#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  }
+}
